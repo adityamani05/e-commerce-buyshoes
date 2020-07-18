@@ -21,6 +21,29 @@
 
     </head>
     <body>
+        <!---- navigation bar ---->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+          <a class="navbar-brand" href="#">Buy Shoes Buy Happiness</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavResponsive" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="home.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="menshoes.html">Men's Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="womenshoes.html">Women's Shoes</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="formalshoes.html">Formal Shoes</a>
+              </li>
+            </ul>
+          </div>
+          </nav>
         <!----   Image Slider   ---->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -29,15 +52,15 @@
             </ol>
             <div class="carousel-inner" max-height: 250px>
               <div class="carousel-item active">
-                <img src="./Images/imageslider/mensrunning.png" class="d-block w-100" alt="Men's Running Shoes">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Men's Running Shoes</h2>
-                    <p>See more Men's Running Shoes.</p>
+                <img src="./Images/mensshoes/imageslider1.png" class="d-block w-100" alt="Men's Running Shoes">
+                <div class="carousel-caption ">
+                    <h2>Men's Shoes</h2>
+                    <p>See more Men's  Shoes.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./Images/imageslider/mensrunning2.png" class="d-block w-100" alt="Men's Running Shoes">
-                <div class="carousel-caption d-none d-md-block">
+                <img src="./Images/mensshoes/imageslider2.png" class="d-block w-100" alt="Men's Running Shoes">
+                <div class="carousel-caption">
                     <h2>Men's Shoes</h2>
                     <p>Comfort matters for you.</p>
                   </div>
@@ -57,16 +80,16 @@
         <br>
         <div class="card-deck" style="margin: 30px;">
             <div class="card">
-              <img src="./Images/mensshoes/mens1.png" class="card-img-top" alt="...">
+              <img src="./Images/mensshoes/mens1.png" class="card-img-top" alt="..." width="100%">
               <div class="card-body">
-                <h5 class="card-title"> Men Drish IDP Running Shoes.</h5>
+                <h5 class="card-title"> Men Drish IDP Shoes.</h5>
                 <p class="card-text">Rs. 7999</p>
                 <button type="button" class="btn btn-primary btn-lg" onclick="myFunction()">buy now</button>
         
               </div>
             </div>
             <div class="card">
-              <img src="./Images/mensshoes/mens2.png" class="card-img-top" alt="...">
+              <img src="./Images/mensshoes/mens2.png" class="card-img-top" alt="..." width="100%">
               <div class="card-body">
                 <h5 class="card-title">Men Flex Control II Training Shoes.</h5>
                 <p class="card-text">Rs. 5999</p>
@@ -74,7 +97,7 @@
               </div>
             </div>
             <div class="card">
-              <img src="./Images/mensshoes/mens3.png" class="card-img-top" alt="...">
+              <img src="./Images/mensshoes/mens3.png" class="card-img-top" alt="..." width="100%">
               <div class="card-body">
                 <h5 class="card-title">Men DOWNSHIFTER 7 Running Shoes</h5>
                 <p class="card-text">Rs. 11999</p>
@@ -84,7 +107,7 @@
           </div>
           <div class="card-deck" style="margin: 30px;">
             <div class="card">
-              <img src="./Images/mensshoes/mens4.png" class="card-img-top" alt="...">
+              <img src="./Images/mensshoes/mens4.png" class="card-img-top" alt="..."width="100%">
               <div class="card-body">
                 <h5 class="card-title">Men FLY.BY Mid-Top Basketball Shoes</h5>
                 <p class="card-text">Rs. 10899</p>
@@ -92,7 +115,7 @@
               </div>
             </div>
             <div class="card">
-              <img src="./Images/mensshoes/mens5.png" class="card-img-top" alt="...">
+              <img src="./Images/mensshoes/mens5.png" class="card-img-top" alt="..."width="100%">
               <div class="card-body">
                 <h5 class="card-title">Men RENEW RUN Running Shoes</h5>
                 <p class="card-text">Rs. 6799</p>
@@ -100,13 +123,26 @@
               </div>
             </div>
             <div class="card">
-              <img src="./Images/mensshoes/mens6.png" class="card-img-top" alt="..." >
+              <img src="./Images/mensshoes/mens6.png" class="card-img-top" alt="..." width="100%">
               <div class="card-body">
-                <h5 class="card-title">Men Solid Deerupt Running Shoes</h5>
+                <h5 class="card-title">Men Solid Deerupt Shoes</h5>
                 <p class="card-text">Rs. 6999</p>
                 <button type="button" class="btn btn-primary btn-lg" onclick="myFunction()">buy now</button>
               </div>
             </div>
           </div>
+                    <!-- footer-->
+                    <footer class="page-footer font-small teal pt-4 text-center" style="background-color:cornflowerblue;">
+                      <div class="container-fluid text-center text-md-left">
+                        <div class="row">
+                          <div class="col-md-12 mt-md-0 mt-3">
+                            <h5 class="text-uppercase font-weight-bold text-center">Buy more Shoes and be happy.</h5>
+                            <p class="text-center">The fact is, sometimes it’s hard to walk in a single woman’s shoes. That’s why we need really special ones now and then – to make the walk a little more fun.</p>
+                          </div>
+                          </div>
+                      </div>
+                      <div class="footer-copyright text-center py-3">© Aditya Mani
+                      </div>
+                    </footer>
     </body>
 </html>
